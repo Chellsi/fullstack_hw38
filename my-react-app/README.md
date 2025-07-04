@@ -1,12 +1,24 @@
-# React + Vite
+# React Components Demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Цей проект демонструє створення та використання кастомних React-компонентів (Button та Input) з підтримкою props та обробників подій.
 
-Currently, two official plugins are available:
+## Встановлення та запуск
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Клонувати репозиторій:
+   ```bash
+   git clone <repo-url>
+   cd my-react-app
+   ```
+2. Встановити залежності:
+   ```bash
+   npm install
+   ```
+3. Запустити проект у режимі розробки:
+   ```bash
+   npm run dev
+   ```
+4. Відкрити у браузері адресу, яку покаже консоль (зазвичай http://localhost:5173).
 
-## Expanding the ESLint configuration
+## Демо-версія
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+[Переглянути демо](https://fullstack-hw38.vercel.app/)
